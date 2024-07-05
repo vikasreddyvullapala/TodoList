@@ -1,0 +1,48 @@
+.itemsinlist{
+  color: rgb(255, 255, 255);
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  padding: 5%;
+  column-gap: 2%;
+  row-gap: 5%;
+}
+.p-7{
+  background-color: rgba(255, 255, 255, 0.042);
+ 
+  
+}
+
+.displayitems{
+  max-height: 500px;
+  display: fixed;
+  overflow-y:auto;
+  overflow-x: hidden;
+
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(65, 66, 66);
+  border-radius: 5rem;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aqua;
+  border-radius: 5rem;
+}
+
+.done{
+  background-color: rgb(239, 239, 12);
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-small;
+}
+.body{
+  background-color: rgb(70, 87, 221);
+}
+.add{
+  overflow-wrap: break-word;
+}
